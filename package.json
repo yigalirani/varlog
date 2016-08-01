@@ -1,0 +1,26 @@
+{
+  "name": "varlog",
+  "version": "1.0.0",
+  "description": " Dump complex js variables and view using drill down interface",
+  "main": "varlog.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yigalirani/varlog.git"
+  },
+  "keywords": [
+    "dump",
+    "log",
+    "javascript",
+    "drill-down",
+    "visualize"
+  ],
+  "author": "yigal irani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yigalirani/varlog/issues"
+  },
+  "homepage": "https://github.com/yigalirani/varlog#readme"
+}
