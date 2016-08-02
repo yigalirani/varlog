@@ -34,6 +34,7 @@ var css=`<style>
 		e.style.display = (d == 'none'|| d == '') ? 'block' : 'none';
 	}
 	function clicker(evt){
+		evt.preventDefault()
 		if (evt.target&&evt.target.className=='tg')
 			toggle(evt.target.nextSibling);
 	}
@@ -93,5 +94,5 @@ function rd(x,depth){
 	}
 	if (count==0)
 		return hi('object(0)')
-	return ans='<a href=#'+count+' name='+count+' class=tg>object('+count+')</a><table>'+ans+'</table>'
+	return ans='<a href=# class=tg>object('+count+')</a><table>'+ans+'</table>'
 }
