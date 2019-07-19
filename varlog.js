@@ -47,7 +47,7 @@ attach_clicker();
 module.exports = new function(){
 	this.css=css; 
 	this.dump=function(name,value,depth=3){
-		return '<div class=varlog>'+name+':'+rd(value,3)+'</div>'
+		return '<div class=varlog>'+name+':'+rd(value,depth)+'</div>'
 	}
 }
 function hi(x){
