@@ -34,7 +34,7 @@ var css=`<style>
 		e.style.display = (d == 'none'|| d == '') ? 'block' : 'none';
 	}
 	function clicker(evt){
-		evt.preventDefault()
+		//evt.preventDefault()
 		if (evt.target&&evt.target.className=='tg')
 			toggle(evt.target.nextSibling);
 	}
