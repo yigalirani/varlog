@@ -1,6 +1,6 @@
 {
   "name": "varlog",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "types": "varlog.d.ts",
   "description": " Dump complex js variables and view using drill down interface",
   "main": "varlog.js",
@@ -16,7 +16,8 @@
     "log",
     "javascript",
     "drill-down",
-    "visualize"
+    "visualize",
+    "node"
   ],
   "author": "yigal irani",
   "license": "ISC",

@@ -1,7 +1,14 @@
 # varlog
 
 
-Dump complex Javascript variables and view using drill down interface
+Dump and inspect complex JavaScript variables through an interactive drill-down interface, especially valuable for debugging Node.js applications. The interface allows you to:
+
+* Explore nested objects and arrays
+* Inspect complex data structures
+* View detailed property information
+* Navigate through multiple levels of object hierarchy
+
+Perfect for debugging server-side code and inspecting large data structures in Node.js environments.
 
 ## Installation
 
