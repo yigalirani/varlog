@@ -24,4 +24,9 @@ const server = http.createServer((req, res) => {
 	);
 });
 
+server.listen(80, 'localhost', () => {
+  console.log(`Server running`);
+});
 ```
+## Screenshot
+![Screenshot](screenshot.png)

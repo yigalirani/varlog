@@ -1,6 +1,7 @@
 {
   "name": "varlog",
-  "version": "1.0.3",
+  "version": "1.0.4",
+  "types": "varlog.d.ts",
   "description": " Dump complex js variables and view using drill down interface",
   "main": "varlog.js",
   "scripts": {
